@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    >
+    <TableRow>
+        <TextView android:text="User:" />
+        <EditText android:id="@+id/signup_user" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Password:" />
+        <EditText android:id="@+id/signup_password"
+            android:inputType="textPassword"/>
+    </TableRow>
+    <Button android:id="@+id/btnSignUp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+
+
+</TableLayout>
