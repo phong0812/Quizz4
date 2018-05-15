@@ -5,6 +5,11 @@
     android:stretchColumns="1"
     >
     <TableRow>
+        <TextView android:text="Username:" />
+        <EditText android:id="@+id/signup_username" />
+    </TableRow>
+
+    <TableRow>
         <TextView android:text="User:" />
         <EditText android:id="@+id/signup_user" />
     </TableRow>
